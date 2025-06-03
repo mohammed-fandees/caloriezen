@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --theme-background-ultralight: #f3f4f6;
+  --theme-background-normal: #3b82f6;
+  --theme-background-light: #e5e7eb;
+  --theme-color-light: #60a5fa;
+  --theme-color-normal: #2563eb;
+  --theme-color-dark: #1f2937;
+  --theme-border-radius-smooth: 1rem;
+}
+
+body {
+  max-width: 1024px;
+  width: 95%;
+  margin: 0 auto;
+}
